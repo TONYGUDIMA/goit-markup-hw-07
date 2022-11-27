@@ -28,16 +28,17 @@
 }
 .current {
   color: var(--blue);
-}
-.current::after {
-  position: absolute; 
-  content: ""; 
-  width: 100%; 
-  height: 5px; 
-  border-radius: 3px;
-  background-color: var(--blue); 
-  left: 0; 
-  bottom: -26px; 
+
+  &::after {
+    position: absolute; 
+    content: ""; 
+    width: 100%; 
+    height: 5px; 
+    border-radius: 3px;
+    background-color: var(--blue); 
+    left: 0; 
+    bottom: -26px; 
+  }
 }
 .header-contacts {
   padding-left: 144px;
